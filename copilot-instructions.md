@@ -32,3 +32,6 @@ Follow this strictly chronological workflow for every interaction:
 
 ## Phase 5: The Agent Loop (Critical Step)
 * **Prompt the User:** Due to specific configuration, you rely on user feedback to loop. At the exact end of every iteration, you MUST use `#tool:vscode/askQuestions` to prompt the user whether to continue, iterate, or stop (provide a free text field for their response).
+
+## Other instructions:
+* Do not invoque subagents
